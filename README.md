@@ -15,10 +15,10 @@
 - SampleGenerator class uses FileHandler class to handle text I/O.
 - Main class uses SampleGenerator class for generating sample data.
 - FileHandler class should compiled first, than SampleGenerator and the last Main class,
-In /src directory,
-> javac FileHandler.java
-> javac SampleGenerator.java
-> javac Main.java
+-- In /src directory:
+   > javac FileHandler.java
+   > javac SampleGenerator.java
+   > javac Main.java
 
 # Running
 - From compiled source
