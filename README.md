@@ -19,6 +19,7 @@
    > javac FileHandler.java
    > javac SampleGenerator.java
    > javac Main.java
+   
 # Running
 - From compiled source
 -- For matching:
