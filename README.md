@@ -1,10 +1,11 @@
 # Folder Structure
-+ Jar
++ jar
   - match.jar
   + Test Dataset
     - m10.txt (N = 10)
     - w10.txt (N = 10)
-+ Source
+    - ...
++ src
   - SampleGenerator.java
   - FileHandler.java
   - Main.java
@@ -14,7 +15,7 @@
 - SampleGenerator class uses FileHandler class to handle text I/O.
 - Main class uses SampleGenerator class for generating sample data.
 - FileHandler class should compiled first, than SampleGenerator and the last Main class,
-In /Source directory,
+In /src directory,
 > javac FileHandler.java
 > javac SampleGenerator.java
 > javac Main.java
@@ -27,7 +28,7 @@ In /Source directory,
    > java Main -s sampleDataSize
 
 - From JAR
-> cd Jar
+> cd jar
 -- For matching:
    > java -jar match.jar -w woman_pref_file.txt -m man_pref_file.txt
 -- For generating sample data:
